@@ -1,0 +1,21 @@
+{
+  "name": "encryption",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "es": "node 3\\ Bonus:\\ CLI\\ Tool.js encrypt --symmetric",
+    "ds": "node 3\\ Bonus:\\ CLI\\ Tool.js decrypt --symmetric",
+    "ea": "node 3\\ Bonus:\\ CLI\\ Tool.js encrypt --asymmetric",
+    "da": "node 3\\ Bonus:\\ CLI\\ Tool.js decrypt --asymmetric"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^10.0.0",
+    "dotenv": "^16.0.3",
+    "inquirer": "^9.1.4"
+  },
+  "type": "module"
+}
